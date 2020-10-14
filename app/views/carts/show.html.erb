@@ -5,7 +5,11 @@
   </header>
 
   <% if enhanced_cart.length == 0 %>
-    <div class="alert alert-primary" role="alert">
+  <div class="alert alert-danger">
+            <strong>The following errors prevented saving:</strong>
+            
+          </div>
+    <div class="alert alert-danger">
       Please add items to your cart. Your cart is empty.
     </div>
   <% else %>
